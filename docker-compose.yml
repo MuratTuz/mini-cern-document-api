@@ -1,0 +1,9 @@
+services:
+  db:
+    image: postgres:14
+    container_name: mini_cern_postgres
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: docdb
+    ports:
+      - "5433:5432"
