@@ -34,3 +34,6 @@ This project was developed to strengthen my Python backend skills using Flask, P
   "author": "Murat Tuzlali",
   "description": "First test document"
 }
+
+## Notes
+On Windows environments, PostgreSQL was exposed on port 5433 to avoid conflicts with an existing local PostgreSQL service running on the default port (5432).
