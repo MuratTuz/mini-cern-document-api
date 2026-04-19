@@ -1,12 +1,12 @@
 # Mini CERN Document API
 
-A simple RESTful API for document management, inspired by document repository platforms such as CERN CDS.
+A simple RESTful API for document management, inspired by repository-style platforms such as CERN CDS.
 
 ## Purpose
 This project was developed to strengthen my Python backend skills using Flask, PostgreSQL, SQLAlchemy, and Docker.
 
 ## Features
-- Flask-based REST API
+- REST API built with Flask
 - CRUD operations for document records
 - PostgreSQL integration
 - SQLAlchemy ORM usage
@@ -20,18 +20,14 @@ This project was developed to strengthen my Python backend skills using Flask, P
 - Docker
 
 ## API Endpoints
-
-### Health Check
 - `GET /health`
-
-### Documents
 - `GET /documents`
 - `GET /documents/<id>`
 - `POST /documents`
 - `PUT /documents/<id>`
 - `DELETE /documents/<id>`
 
-## Example Document Payload
+## Example Request Body
 ```json
 {
   "title": "CERN Note 001",
